@@ -1,0 +1,9 @@
+[[redirects]]
+from ="/*"
+to = "html/index.html"
+status = 200
+
+[[redirects]]
+from ="/*"
+to = "html/livro-1.html"
+status = 200
