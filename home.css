@@ -35,7 +35,7 @@ header .atual{
 .img1{
     display: block;
     text-align: center;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)) ,url(https://images.pexels.com/photos/757855/pexels-photo-757855.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)) ,url(https://images.pexels.com/photos/757855/pexels-photo-757855.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     border-radius: 25px;
     background-position: center;
     width: 80%;
