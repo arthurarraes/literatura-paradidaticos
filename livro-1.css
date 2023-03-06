@@ -27,11 +27,6 @@ header a{
     font-size: 1rem;
     font-weight: bold;
 }
-header a:hover{
-    border-bottom: 1;
-    border-bottom-style: solid;
-    border-color: #4C0673;
-}
 header .atual{
     border-bottom: 1;
     border-bottom-style: solid;
@@ -44,21 +39,15 @@ header .atual{
     text-align: center;
     justify-content: center;
     margin-top: 1%;
-    background-color: #a3a153;
+    background-color: #D8D367;
     width: 100%;
     height: 60px;
-}
-.link a:hover{
-    border-bottom: 1;
-    border-bottom-style: solid;
-    border-color: rgb(10, 0, 102);
 }
 .link a{
     font-family:'Gilroy-Medium', sans-serif;
     color: black;
     font-size: 1rem;
     margin: 2%;
-    margin-left: 1%;
 }
 .conteudo{
     flex-direction: column;
@@ -104,10 +93,8 @@ header .atual{
     margin-top: 1%;
     margin-left: 2%;
     width: 95%;
-    position: absolute;
     padding-top: 10px;
     height: 450px;
-    bottom: -90%;
     border-radius: 25px;
 }
 .conteudo #historia h1{
@@ -155,10 +142,8 @@ header .atual{
     margin-top: 1%;
     margin-left: 2%;
     width: 95%;
-    position: absolute;
     padding-top: 10px;
     height: 450px;
-    bottom: -170%;
     border-radius: 25px;
 }
 
@@ -207,22 +192,23 @@ header .atual{
     margin-top: 1%;
     margin-left: 2%;
     width: 95%;
-    position: absolute;
     padding-top: 10px;
     height: 450px;
-    bottom: -250%;
     border-radius: 25px;
 }
 
 .conteudo #literatura h1{
     display: flex;
-    
+    align-items: center;
+    text-align:center;
+    justify-content: center;    
     color: #10009c;
     font-size: 1.5rem;
+    margin-bottom: 1%;
 }
 .conteudo #literatura .img1{
     font-family:'Gilroy-Regular', sans-serif;
-    margin-top: 0;
+    margin-top: 1%;
     padding-left: 1%;
     display:flex;
     align-items: center;
@@ -261,10 +247,8 @@ header .atual{
     margin-top: 1%;
     margin-left: 2%;
     width: 95%;
-    position: absolute;
     padding-top: 10px;
-    height: 450px;
-    bottom: -300%;
+    height: 350px;
     border-radius: 25px;
 }
 .conteudo #filosofia h1{
@@ -274,7 +258,6 @@ header .atual{
     justify-content: center;    
     color: #10009c;
     font-size: 1.5rem;
-    margin-bottom: 1%;
 }
 
 .conteudo #er{
@@ -288,13 +271,9 @@ header .atual{
 
     display: flex;
     flex-wrap: wrap;
-    margin-top: 1%;
     margin-left: 2%;
     width: 95%;
-    position: absolute;
-    padding-top: 10px;
     height: 450px;
-    bottom: -350%;
     border-radius: 25px;
 }
 .conteudo #er h1{
@@ -312,11 +291,8 @@ header .atual{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center; 
-    margin-top: 1%;
     width: 100%;
-    position: absolute;
     padding-top: 10px;
-    bottom: -380%;
     height: 178px;
     background-color:#F07000;
 }
@@ -369,3 +345,9 @@ header .atual{
     height: 100px;
     color: rgb(255, 255, 255);
 }
+
+@media screen and (max-width: 1359px) {
+    .conteudo #literatura h1{
+        margin-bottom: 2%;
+    }
+  }

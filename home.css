@@ -35,7 +35,7 @@ header .atual{
 .img1{
     display: block;
     text-align: center;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)) ,url(https://images.pexels.com/photos/757855/pexels-photo-757855.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)) ,url(https://images.pexels.com/photos/757855/pexels-photo-757855.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     border-radius: 25px;
     background-position: center;
     width: 80%;
@@ -85,9 +85,8 @@ header .atual{
     margin-top: 1%;
     margin-left: 2%;
     width: 95%;
-    position: absolute;
     padding-top: 10px;
-    height: 60%;
+    padding-bottom: 10px;
     border-radius: 25px;
     background-color: #97E404
 }
@@ -143,24 +142,22 @@ header .atual{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center; 
-    margin-top: 2%;
+    margin-top: 1%;
     margin-left: 2%;
     width: 97%;
-    position: absolute;
     padding-top: 10px;
-    bottom: -86%;
     border-radius: 25px;
 }
 
 .container2 .curiosidade{
+    margin-top: 0;
     margin-left: 1%;
     font-family: 'Gilroy-Medium', sans-serif;
-    font-weight: bold;
     font-size: 120%;
     display:flex;
     align-items: center;
-    text-align: center;
     justify-content: center; 
+    text-align: center;
     padding-right: 1%;
     width: 20%;
     margin-top: 3%;
@@ -168,7 +165,9 @@ header .atual{
     background-color: #33D3C4;
     color: black;
     box-shadow: 7px -8px rgb(187, 184, 184);
+    font-weight: bold;
 }
+
 .container3{
     display: flex;
     flex-wrap: wrap;
@@ -176,9 +175,7 @@ header .atual{
     justify-content: center; 
     margin-top: 1%;
     width: 100%;
-    position: absolute;
     padding-top: 10px;
-    bottom: -160%;
     height: 600px;
     background-color:#1A191C;
 }
@@ -223,11 +220,8 @@ header .atual{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center; 
-    margin-top: 1%;
     width: 100%;
-    position: absolute;
     padding-top: 10px;
-    bottom: -178%;
     height: 170px;
     background-color:#F07000;
 }
@@ -279,4 +273,11 @@ header .atual{
     margin-bottom: 3%;
     height: 100px;
     color: white;
+}
+
+@media screen and (max-width: 1919px) {
+    .container2 .curiosidade{
+        font-size: 1rem;
+    }
+
 }
