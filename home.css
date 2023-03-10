@@ -32,6 +32,11 @@ header .atual{
     border-bottom-style: solid;
     border-color: rgb(10, 0, 102);
 }
+header a:hover{
+    border-bottom: 1;
+    border-bottom-style: solid;
+    border-color: rgb(10, 0, 102);
+}
 .img1{
     display: block;
     text-align: center;
